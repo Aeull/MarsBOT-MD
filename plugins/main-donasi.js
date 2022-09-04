@@ -6,11 +6,11 @@ let handler = async (m) => {
     else who = m.sender
     let user = global.db.data.users[who]
 let duit = `┌「 *Donasi - Pulsa* 」
-├ Axis [083832492541]
-├ Indosat [085856508824]
+├ Axis [083843192208]
+├ Indosat [085822347348]
 └────
 ┌「 *Donasi - Money* 」
-├ Dana [083832492541]
+├ Dana [085822347348]
 └────`
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
@@ -22,7 +22,7 @@ let duit = `┌「 *Donasi - Pulsa* 」
            hydratedButtons: [{
              urlButton: {
                displayText: 'Saweria',
-               url: 'https://saweria.co/botrhnsh',
+               url: 'https://saweria.co/arullofc',
              }
 
            },
